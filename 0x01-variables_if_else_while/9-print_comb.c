@@ -3,7 +3,7 @@
 
 
 /**
- * main - Prints numbers between 00 to 99.
+ * main - Prints numbers between 0 to 9 with commas and spaces.
  *
  * Return: Always 0 (Success)
  */
@@ -12,41 +12,28 @@ int main(void)
 
 {
 
-	int i, e;
+	int i;
 
 
-	i = 48;
 
-	e = 48;
-
-	while (e < 58)
+	for (i = 48; i < 58; i++)
 
 	{
-
-	i = 48;
-
-	while (i < 58)
-
-	{
-
-	putchar(e);
 
 	putchar(i);
 
-	if (i == 57 && e == 57)
+	if (i != 57)
+
 	{
-	
-		break;
+
+	putchar(',');
+
+	putchar(' ');
+
 	}
-																putchar(',');
-																putchar(' ');
-																i++;																															}
-	e++;
 
 	}
 
 	putchar('\n');
 
 	return (0);
-
-}
