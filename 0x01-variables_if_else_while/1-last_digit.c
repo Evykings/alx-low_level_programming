@@ -7,14 +7,10 @@
  * 
  * Return: Always 0 (Success)
  */
-
 int main(void)
-
 {
 
 	int n, m;
-
-
 
 	srand(time(0));
 
@@ -47,5 +43,4 @@ int main(void)
 	}
 
 	return (0);
-
 }
