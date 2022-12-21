@@ -12,44 +12,37 @@ int main(void)
 
 {
 
-	int i, e;
 
+	int i = 48;
 
-	i = 48;
+	int e = 49;
 
-	e = 48;
+	while (i <= 57)
 
-	while (e < 58)
+	{
+	e = 49;
+	while (e <=57)
 
 	{
 
-	i = 48;
-
-	while (i < 58)
-
-	{
+	
+	putchar(i);
 
 	putchar(e);
 
-	putchar(i);
-
-	if (i == 57 && e == 57)
-	
+	if (i ==56 && e == 57)
 	{
-
-	break;
-
+		break;
 	}
-
 	putchar(',');
 
 	putchar(' ');
 
-	i++;
-
+	e++;
+	
 	}
 
-	e++;
+	i++;
 
 	}
 
